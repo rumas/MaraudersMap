@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="ColorPrimary">#003b6c</color>
+	<color name="ColorPrimaryDark">#003b6c</color>
+	<color name="ColorAccent">#8BC34A</color>
+	<color name="ColorPrimaryLight">#C5CAE9</color>
+	<color name="Background">#002646</color>
+	<color name="Background.CardView">#FFFFFF</color>
+	<color name="TextColor.White">#FFFFFF</color>
+	<color name="TextColor.Gray">#999999</color>
+	<color name="TextColor.DarkGray">#333333</color>
+	<color name="TextColor.Black">#000000</color>
+	<color name="Divider">#BDBDBD</color>
+</resources>

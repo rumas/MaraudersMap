@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:id="@+id/activity_main"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:paddingLeft="@dimen/activity_horizontal_margin"
+		android:paddingRight="@dimen/activity_horizontal_margin"
+		android:paddingTop="@dimen/activity_vertical_margin"
+		android:paddingBottom="@dimen/activity_vertical_margin"
+		android:background="@color/Background"
+		tools:context="com.brunel.team28.maraudersmap.MainActivity">
+
+	<include layout="@layout/card_my_profile"
+			 android:layout_width="match_parent"
+			 android:layout_height="120dp"
+			 android:layout_marginBottom="10dp"></include>
+
+	<include layout="@layout/card_my_friends"
+			 android:layout_width="match_parent"
+			 android:layout_height="120dp"
+			 android:layout_marginBottom="10dp"
+			 android:layout_below="@+id/my_account_card"></include>
+
+	<include layout="@layout/card_add_friends"
+			 android:layout_width="match_parent"
+			 android:layout_height="120dp"
+			 android:layout_marginBottom="10dp"
+			 android:layout_below="@+id/my_friends_card"></include>
+
+	<include layout="@layout/card_settings"
+			 android:layout_width="match_parent"
+			 android:layout_height="120dp"
+			 android:layout_marginBottom="10dp"
+			 android:layout_below="@+id/map"></include>
+</LinearLayout>
